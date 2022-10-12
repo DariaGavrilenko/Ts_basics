@@ -4,7 +4,7 @@ type UnControlledAccordionPropsType = {
     onChange: (v:boolean)=> void
 }
 
-function UncontrolledOnOff({onChange}: UnControlledAccordionPropsType){
+export function UncontrolledOnOff({onChange}: UnControlledAccordionPropsType){
   
 const [turnOn, setTurnOn] = useState(false)
 const on = {
@@ -51,4 +51,3 @@ const turnoff = () =>{
 
 
 
-export default UncontrolledOnOff

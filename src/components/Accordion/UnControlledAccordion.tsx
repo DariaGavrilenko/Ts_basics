@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-type AccordionPropsType = {
+export type AccordionPropsType = {
     titleValue:string
   }
   
